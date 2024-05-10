@@ -2,7 +2,7 @@
   "name": "timer-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://konst9.github.io/timer/",
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -19,9 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src --ext .ts,.tsx",
-    "lint:fix": "npm run lint -- --fix",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint:fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [
