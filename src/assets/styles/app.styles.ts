@@ -1,18 +1,19 @@
 import styled, {keyframes} from 'styled-components'
 
 export const SApp = styled.div`
+  padding: 48px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 `
 
 export const SHeader = styled.header`
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 `
 
 const spin = keyframes`
