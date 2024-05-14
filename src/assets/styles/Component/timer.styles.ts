@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const TimerWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
 export const TimerBlock = styled.div`
   padding-top: 48px;
   display: flex;
@@ -9,12 +14,13 @@ export const TimerBlock = styled.div`
 export const TimerDataBlock = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8px;
 `
 export const TimerData = styled.div`
   width: 80px;
   height: 120px;
-  background-color: #BF4F74;
+  background-color: #3f50b5;
   border-radius: 8px;
   color: white;
   display: flex;
@@ -31,12 +37,13 @@ export const BtnBlock = styled.div`
 `
 
 export const Text = styled.div`
-  color: #BF4F74;
+  color: #002884;
   font-size: 24px;
   font-weight: 500;
   padding-top: 48px;
 `
 
 export const TextCard = styled.span`
-  color: #BF4F74;
+  color: #3f50b5;
 `
+

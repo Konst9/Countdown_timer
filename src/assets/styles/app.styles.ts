@@ -1,10 +1,7 @@
 import styled, {keyframes} from 'styled-components'
 
 export const SApp = styled.div`
-  padding: 48px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+    height: 100vh;
 `
 
 export const SHeader = styled.header`
@@ -36,4 +33,10 @@ export const SLogo = styled.img`
 
 export const SLink = styled.a`
   color: #61dafb;
+`
+
+export const Wrapper = styled.div`
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  height: 100%;
 `
