@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState, useEffect, useCallback, useMemo} from "react";
+import PropTypes from 'prop-types';
 import {
   TimerWrapper,
   TimerDataBlock,
@@ -121,4 +122,10 @@ return (
   </TimerWrapper>
 );
 };
+
+Timer.propTypes = {
+  hours: PropTypes.number,
+  minutes: PropTypes.number,
+  seconds: PropTypes.number,
+}
 export default React.memo(Timer);
